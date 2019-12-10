@@ -2,6 +2,5 @@ require 'pry'
 
 def reverse_each_word(sentence)
   new = []
-  sentence.each
-  binding.pry
+  new << sentence.each.collect.reverse
 end
